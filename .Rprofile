@@ -4,3 +4,6 @@
 if (interactive()) {
   suppressMessages(require(devtools))
 }
+
+# This loads the global Rprofile from your home directory.
+source("~/.Rprofile")
